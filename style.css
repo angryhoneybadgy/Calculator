@@ -1,0 +1,103 @@
+html {
+    font-size: 26px;
+}
+button{
+    font-size: 36px;
+    background-color: rgba(240, 240, 240, 0.849);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(99, 99, 99);
+}
+button:hover {
+    background-color: rgba(160, 160, 160, 0.432);
+    transition-duration: 0.4s;
+}
+button:active {
+    background-color: rgba(117, 117, 117, 0.685);
+    transition-duration: 0s;
+}
+.row button{
+    display: inline-block;
+}
+.row {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.calculator {
+    width: 380px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgba(113, 197, 253, 0.712);
+}
+#main {
+    background-color: rgba(255, 255, 255, 0.63);
+    margin: 0 14px 0 14px;
+    border: solid 1px rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+.inner {
+    border-radius: 5px;
+}
+.outer {
+    border-radius: 10px;
+}
+#digits {
+    margin-right: 20px;
+}
+#digits button {
+    width: 60px;
+}
+#buttons button {
+    display: block;
+    width: 60px;
+    margin-bottom: 5px;
+    background-color: rgba(180, 180, 180, 0.384);
+}
+.block {
+    display: inline-block;
+}
+#actions {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: end;
+    margin-right: 34px;
+}
+#actions button {
+    display: inline-block;
+    background-color: rgba(180, 180, 180, 0.384);
+}
+#actions button:hover, #buttons button:hover {
+    background-color: rgba(114, 114, 114, 0.432);
+    transition-duration: 0.4s;
+}
+#actions button:active, #buttons button:active {
+    background-color: rgba(117, 117, 117, 0.685);
+    transition-duration: 0s;
+}
+#equals{
+    width: 140px;
+    margin-right: 20px;
+}
+#clear {
+    width: 60px;
+    color: rgb(223, 53, 53);
+}
+#display {
+    margin-bottom: 20px;
+    width: 350px;
+    border: solid 1px rgb(190, 190, 190);
+    border-radius: 5px;
+    min-height: 34px;
+    margin: auto;
+    text-align: end;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+#main {
+    text-align: center;
+}
